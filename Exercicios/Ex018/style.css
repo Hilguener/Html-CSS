@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    /*height: 100%;*/
+    font-family:'Courier New', Courier, monospace;
+                                                
+}
+body{
+    background-image: linear-gradient(to right, #f13e31, #700b02);
+}
+main{
+    background-color: white;
+    width: 500px;
+    height: max-content;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #521a16a1 ;
+    overflow-y: auto; 
+}
+h1{
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000ce;            
+
+}
+h2{
+    color: #250d0c;
+}
+
+p{
+    text-align: justify;
+}
