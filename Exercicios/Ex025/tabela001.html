@@ -12,18 +12,27 @@
         table{
             border-collapse: collapse;
             width: 400px;
+            height: 400px;
             
         }
         td{
             border: 1px solid black;
             padding: 10px;
+            
         }
-        td.dado{
-            background-color: yellow;
+        td.direita{
+            text-align: right;
         }
-        tr.linha{
-            background-color: gray;
+        td.baixo{
+            vertical-align: bottom;
         }
+        td.top{
+            vertical-align: top;
+        }
+        td.meio{
+            vertical-align: middle;
+        }
+       
         
 
     </style>
@@ -39,24 +48,24 @@
 
     -->
     <table>
-        <tr class=""><!--Primeira linha-->
-            <td>A1</td>
+        <tr><!--Primeira linha-->
+            <td class="direito">A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr> 
-        <tr class="linha">
-            <td>A2</td>
+        <tr>
+            <td class="baixo">A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
-        <tr class=>
-            <td>A3</td>
+        <tr>
+            <td class="meio">A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
-        <tr class=>
+        <tr>
             <td>A4</td>
-            <td class="dado">B4</td>
+            <td class="top">B4</td>
             <td>C4</td>
         </tr>
     </table>
