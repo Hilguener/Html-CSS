@@ -6,31 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela 2</title>
     <style>
-        body{
+    body{
             font-family: sans-serif;
-        }
-        table{
+    }
+    table{
             border-collapse: collapse;
             width: 600px;
-            height: 300px;
-            display:inline-flexbox;
-            margin: auto
-        }
-      td, th{
+            margin: auto;
+          
+    }
+    td, th{
           padding: 8px;
           border: 1px solid black;
-      }
-      thead, tfoot{
-          background-color: gray;
+       
+    }
+    tr > th{
+        background-color: rgb(58, 57, 57);
+        color: white;
+
+    }
+    thead, tfoot{
+          background-color: rgb(58, 57, 57);
           color: white;
-      }
-      .centro{
+    }
+   
+    tbody > tr:nth-child(2n){
+        background-color: lightgray;
+    }
+    .centro{
           width: 40px;
           padding-top: 10px;
           padding-bottom: 10px;
           text-align: center;
           font-size: small;
-      }
+    }
     .num{
         text-align: right;
     }
@@ -62,10 +71,9 @@
         <thead>
             <caption>População das Unidades Federativas</caption>
             <tr>
-                <th scope="col" style="width: 50px;">Posição</th>
+                <th scope="col" style="width: 50px;" >Posição</th>
                 <th scope="col">Estado</th>
-                <th scope="col" style="width: 50px
-                ;">População</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>       
