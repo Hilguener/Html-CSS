@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabela</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        caption{
+            font-size: 2em;
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+        }
+        .cnome{
+            background-color: bisque;
+        }
+        .csexo{
+            background-color: brown;
+        }
+        .cidade{
+            background-color: chocolate;
+        }
+        .cprof{
+            background-color: aqua;
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabela</h1>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprof">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Hilguener</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Ketlin</td>
+                <td>F</td>
+                <td>21</td>
+                <td>Pedagoga</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>58</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Mauricio</td>
+                <td>M</td>
+                <td>36</td>
+                <td>Músico</td>
+            </tr>
+           
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Hilguener</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Ketlin</td>
+                <td>F</td>
+                <td>21</td>
+                <td>Pedagoga</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>58</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Mauricio</td>
+                <td>M</td>
+                <td>36</td>
+                <td>Músico</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
